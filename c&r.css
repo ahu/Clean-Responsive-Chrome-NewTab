@@ -1,0 +1,26 @@
+#mngb,#lga,#f,#spsh{display:none !important;}
+body{min-height:350px !important;}
+
+@media(min-height:450px) {
+	body{min-height:400px !important;}
+}
+
+@media(min-height:550px) {
+	body{min-height:500px !important;}
+}
+
+@media(min-width:780px) {
+	#mv-tiles{width:760px !important;height:300px !important;line-height:150px !important;}
+	.mv-tile{width:170px !important;height:103px !important;}
+	.mv-title{width:190px !important;bottom:-30px !important;}
+	.mv-thumb,.mv-locthumb,.mv-locgradient,.mv-locfallback,.mv-mask{width:170px !important;height:103px !important;}
+	.mv-fav{left:77px !important;}
+}
+
+@media(min-width:1260px) {
+	#mv-tiles{width:1200px !important;height:500px !important;line-height:250px !important;}
+	.mv-tile{width:280px !important;height:170px !important;}
+	.mv-title{width:280px !important;bottom:-50px !important;}
+	.mv-thumb,.mv-locthumb,.mv-locgradient,.mv-locfallback,.mv-mask{width:280px !important;height:170px !important;}
+	.mv-fav{left:132px !important;}
+}
